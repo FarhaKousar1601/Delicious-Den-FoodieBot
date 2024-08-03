@@ -96,5 +96,3 @@ To follow you on LinkedIn and GitHub, and to star and fork your repository, you 
 2. **Fork the Repository:**
    - Visit the repository on GitHub: [Delicious Den FoodieBot](https://github.com/yourusername/delicious-den-foodiebot)
    - Click the "Fork" button at the top-right corner of the page to create a personal copy of the repository in your GitHub account.
-
-Feel free to share these links and instructions with others to encourage them to follow, star, and fork your repository!
