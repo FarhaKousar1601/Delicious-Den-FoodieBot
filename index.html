@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f8f8;
+        }
+        .navbar {
+            margin-bottom: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .menu-section {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "5754b440-e0e8-411c-a13b-5632aa02994d", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "ec3db7a0-ca2b-449e-bb6b-f470481cd7ad", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Delicious Den</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container content" id="home">
+    <div class="jumbotron">
+        <img src="images/delicious_den.jpg" alt="Delicious Den">
+    </div>
+</div>
+
+<div class="container content" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-section">
+        <h3>Snacks</h3>
+        <div class="row">
+            <div class="col-md-3 menu-item">
+                <img src="images/french_fries.jpg" alt="French Fries">
+                <h4>French Fries</h4>
+                <p>Price: ₹40</p>
+                <a class="btn btn-dark" href="#" role="button">Order Now</a>
+            </div>
+            <div class="col-md-3 menu-item">
+                <img src="images/hot_dog.jpg" alt="Hot Dog">
+                <h4>Hot Dog</h4>
+                <p>Price: ₹50</p>
+                <a class="btn btn-dark" href="#" role="button">Order Now</a>
+            </div>
+            <div class="col-md-3 menu-item">
+                <img src="images/sandwich.jpg" alt="Sandwich">
+                <h4>Sandwich</h4>
+                <p>Price: ₹50</p>
+                <a class="btn btn-dark" href="#" role="button">Order Now</a>
+            </div>
+            <div class="col-md-3 menu-item">
+                <img src="images/burger.jpg" alt="Burger">
+                <h4>Burger</h4>
+                <p>Price: ₹50</p>
+                <a class="btn btn-dark" href="#" role="button">Order Now</a>
+            </div>
+        </div>
+        <h3>Drinks</h3>
+        <div class="row">
+            <div class="col-md-3 menu-item">
+                <img src="images/hot_coffee.jpg" alt="Hot Coffee">
+                <h4>Hot Coffee</h4>
+                <p>Price: ₹30</p>
+                <a class="btn btn-dark" href="#" role="button">Order Now</a>
+            </div>
+            <div class="col-md-3 menu-item">
+                <img src="images/hot_tea.jpg" alt="Hot Tea">
+                <h4>Hot Tea</h4>
+                <p>Price: ₹20</p>
+                <a class="btn btn-dark" href="#" role="button">Order Now</a>
+            </div>
+            <div class="col-md-3 menu-item">
+                <img src="images/cold_coffee.jpg" alt="Cold Coffee">
+                <h4>Cold Coffee</h4>
+                <p>Price: ₹50</p>
+                <a class="btn btn-dark" href="#" role="button">Order Now</a>
+            </div>
+            <div class="col-md-3 menu-item">
+                <img src="images/iced_tea.jpg" alt="Iced Tea">
+                <h4>Iced Tea</h4>
+                <p>Price: ₹40</p>
+                <a class="btn btn-dark" href="#" role="button">Order Now</a>
+            </div>
+        </div>
+        <h3>Main Course</h3>
+        <div class="row">
+            <div class="col-md-3 menu-item">
+                <img src="images/mexican_bowl.jpg" alt="Mexican Bowl">
+                <h4>Mexican Bowl</h4>
+                <p>Price: ₹200</p>
+                <a class="btn btn-dark" href="#" role="button">Order Now</a>
+            </div>
+            <div class="col-md-3 menu-item">
+                <img src="images/punjabi_thali.jpg" alt="Punjabi Thali">
+                <h4>Punjabi Thali</h4>
+                <p>Price: ₹150</p>
+                <a class="btn btn-dark" href="#" role="button">Order Now</a>
+            </div>
+            <div class="col-md-3 menu-item">
+                <img src="images/chinese_platter.jpg" alt="Chinese Platter">
+                <h4>Chinese Platter</h4>
+                <p>Price: ₹180</p>
+                <a class="btn btn-dark" href="#" role="button">Order Now</a>
+            </div>
+            <div class="col-md-3 menu-item">
+                <img src="images/dosa_combo.jpg" alt="Dosa Combo">
+                <h4>Dosa Combo</h4>
+                <p>Price: ₹150</p>
+                <a class="btn btn-dark" href="#" role="button">Order Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container content" id="about">
+    <h2>About Us</h2>
+    <p>Welcome to Delicious Den! Our restaurant, founded by a passionate couple who love food, operates from 10 am to 10 pm daily. We pride ourselves on using fresh, local produce to create our dishes, ensuring quality and supporting local farmers. Currently, we have one location where we serve our delightful meals. While we do not open for breakfast, we do offer delivery services so you can enjoy our delicious food at your convenience. Come and experience the warmth and flavors of Delicious Den!</p>
+</div>
+
+<div class="container content" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@restaurant.com</p>
+    <p>Phone: +91 9876543210</p>
+    <p>Address: 123 Food Street, Ahmedabad, India</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
