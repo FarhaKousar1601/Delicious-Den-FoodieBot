@@ -46,8 +46,10 @@
 
 ### Project Screenshots
 
-![FoodieBot Screenshot](https://github.com/FarhaKousar1601/Delicious-Den-FoodieBot/blob/main/foodiebot_screenshot.png)
-![Delicious Den Website Screenshot](https://github.com/FarhaKousar1601/Delicious-Den-FoodieBot/blob/main/delicious_den_website_screenshot.png)
+- Live Project: [Delicious Den FoodieBot](https://farhakousar.me/Delicious-Den-FoodieBot/)
+
+- ![Delicious Den Website](https://github.com/FarhaKousar1601/Delicious-Den-FoodieBot/blob/main/delicious_den.jpg)
+- ![FoodieBot Screenshot](https://github.com/FarhaKousar1601/Delicious-Den-FoodieBot/blob/main/coco.png)
 
 ## Team Members
 
