@@ -33,20 +33,21 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/delicious-den-foodiebot.git
+   git clone https://github.com/FarhaKousar1601/Delicious-Den-FoodieBot.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd delicious-den-foodiebot
+   cd Delicious-Den-FoodieBot
    ```
 
 3. Open `index.html` in a web browser to view the project.
 
 ### Project Screenshots
 
-![Delicious Den](https://static.wixstatic.com/media/efcdda_8f53f0797bff4a5887ddd3da0aa00568~mv2.jpg)
+![FoodieBot Screenshot](https://github.com/FarhaKousar1601/Delicious-Den-FoodieBot/blob/main/foodiebot_screenshot.png)
+![Delicious Den Website Screenshot](https://github.com/FarhaKousar1601/Delicious-Den-FoodieBot/blob/main/delicious_den_website_screenshot.png)
 
 ## Team Members
 
@@ -81,18 +82,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Special thanks to IBM for providing the internship opportunity and resources.
 - Appreciation to Amit Sir for his valuable masterclasses.
 - Gratitude to my team members for their hard work and collaboration.
-To follow you on LinkedIn and GitHub, and to star and fork your repository, you can use the following links and instructions:
 
-### Follow Me
+## Follow Me
+
 - **LinkedIn:** [Farha Kousar](https://www.linkedin.com/in/farhakousar16)
 - **GitHub:** [FarhaKousar1601](https://github.com/FarhaKousar1601)
 
-### Star and Fork the Repository
+## Star Repository
 
 1. **Star the Repository:**
-   - Visit the repository on GitHub: [Delicious Den FoodieBot](https://github.com/yourusername/delicious-den-foodiebot)
+   - Visit the repository on GitHub: [Delicious Den FoodieBot](https://github.com/FarhaKousar1601/Delicious-Den-FoodieBot)
    - Click the "Star" button at the top-right corner of the page to add the repository to your starred projects.
-
-2. **Fork the Repository:**
-   - Visit the repository on GitHub: [Delicious Den FoodieBot](https://github.com/yourusername/delicious-den-foodiebot)
-   - Click the "Fork" button at the top-right corner of the page to create a personal copy of the repository in your GitHub account.
